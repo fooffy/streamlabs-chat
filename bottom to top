@@ -1,0 +1,33 @@
+So go to your chatbox and enable custom code, then go to the CSS tab.
+
+In there, find
+(not #log>div)
+#log {
+    things
+    like
+    position
+    and 
+    so 
+    on
+}
+
+In there youll find this property:
+
+position: absolute;
+
+Now replace that with this:
+
+position: column-reverse;
+display: flex;
+flex-direction: column-reverse;
+
+It dosen't matter if you have:
+
+display: table;
+and 
+display: flex;
+
+in there, it is working anyway.
+You only need to have a look that "position: absolute;" is not in the code anymore.
+
+Now, you're finished!
